@@ -75,7 +75,7 @@ var stringWithVowels2 = "ILoveJavaScript"
 const noVowel = (string) => {
     if (typeof string == "string") {
     strArr = string.split("");
-    let noVowelArr = strArr.filter(value => value !== "a" && value !== "e" && value!== "i"  && value !== "o"  && value !== "u");
+    let noVowelArr = strArr.filter(value => value !== "a" && value !== "e" && value!== "i"  && value !== "o"  && value !== "u" && value !== "A" && value !== "E" && value!== "I"  && value !== "O"  && value !== "U");
     noVowelStr = noVowelArr.join("");
     return noVowelStr;
     } else {
